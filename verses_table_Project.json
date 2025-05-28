@@ -1,0 +1,50 @@
+{
+    "happy" : [
+        {
+            "text" : "Rejoice in the Lord always. I will say it again: Rejoice!",
+            "ref" : "Philippians 4:4"
+        }   
+    ],
+
+    "excited" : [
+        {
+            "text" : "Shout for joy to the Lord, all the earth. Worship the Lord with gladness; come before him with joyful songs.",
+            "ref" : "Psalm 100:1–2"
+        }
+    ],
+
+    "angry" : [
+        {
+            "text" : "In your anger do not sin: Do not let the sun go down while you are still angry.",
+            "ref" : "Ephesians 4:26"
+        }
+    ],
+
+    "calm" : [
+        {
+            "text" : "Be still, and know that I am God.",
+            "ref" : "Psalm 46:10"
+        }
+    ],
+
+    "relaxed" : [
+        {
+            "text" : "Come to me, all you who are weary and burdened, and I will give you rest.",
+            "ref" : "Matthew 11:28"
+        }
+    ],
+
+    "sad" :[
+        {
+            "text" : "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
+            "ref" : "Psalm 34:18"
+        }
+    ],
+
+    "anxious" : [
+        {
+            "text" : "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
+            "ref" : "Philippians 4:6–7"
+        }
+    ]
+}

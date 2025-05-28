@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emotional Bible Verses</title>
+        <link rel ='stylesheet' href='Project_Style_Sheet.css'>
+        <script>
+            function getVerse() {
+                const emotionSelect = document.getElementById('emotion');
+                const selectedEmotion = emotionSelect.value;
+
+                if (!selectedEmotion) {
+                    alert("Please select an emotion first");
+                    return;
+                }
+
+                else if (selectedEmotion == "happy") {
+                    alert("You are happy");
+                    var random = Math.floor(Math.random()*10);  <!-- 0 - 9 -->
+                    alert(random);
+                    return;
+                }
+
+                else if (selectedEmotion == "excited") {
+                    alert("You are excited");
+                    return;
+                }
+
+                else if (selectedEmotion == "calm") {
+                    alert("You are calm");
+                    return;
+                }
+
+                else if (selectedEmotion == "relaxed") {
+                    alert("You are relaxed");
+                    return;
+                }
+
+                else if (selectedEmotion == "sad") {
+                    alert("You are sad");
+                    return;
+                }
+
+                else if (selectedEmotion == "angry") {
+                    alert("You are angry");
+                    return;
+                }
+
+                else if (selectedEmotion == "anxious") {
+                    alert("You are anxious");
+                    return;
+                }
+
+            }
+
+        </script>
+    </head>
+    <body>
+        <div>
+            <h1>Title</h1>
+            <select id="emotion" name="emotion">
+            <option value="">-- How are you feeling? --</option>
+                <optgroup label="Positive">
+                    <option value="happy">Happy</option>
+                    <option value="excited">Excited</option>
+                    <option value="calm">Calm</option>
+                    <option value="relaxed">Relaxed</option>
+                </optgroup>
+                <optgroup label="Negative">
+                    <option value="sad">Sad</option>
+                    <option value="angry">Angry</option>
+                    <option value="anxious">Anxious</option>
+                </optgroup>
+            </select><br><br>
+
+            <button onclick='getVerse();'>Generate Verse</button>
+          </div>
+    </body>
+</html>

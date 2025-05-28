@@ -1,2 +1,2 @@
-# Project-1st_Year
-My first project on GitHub. It's a Webpage that will generate a random bible verse based on your inputted emotion
+# VerseWise (unfinished)
+My project will generate a random verse/psalm with it's reference from the bible in accordance to the users entered emotion.

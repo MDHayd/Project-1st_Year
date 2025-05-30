@@ -3,7 +3,23 @@
         {
             "text" : "Rejoice in the Lord always. I will say it again: Rejoice!",
             "ref" : "Philippians 4:4"
-        }   
+        }
+        {
+            "text" : "Blessed are the pure in heart, for they will see God.",
+            "ref" : "Matthew 5:8"
+        },
+        {
+            "text" : "I have told you this so that my joy may be in you and that your joy may be complete.",
+            "ref" : "John 15:11"
+        },
+        {
+            "text" : "May the God of hope fill you with all joy and peace as you trust in him.",
+            "ref" : "Romans 15:13"
+        },
+        {
+            "text" : "you believe in him and are filled with an inexpressible and glorious joy.",
+            "ref" : "1 Peter 1:8"
+        }
     ],
 
     "excited" : [

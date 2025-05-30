@@ -3,7 +3,7 @@
         {
             "text" : "Rejoice in the Lord always. I will say it again: Rejoice!",
             "ref" : "Philippians 4:4"
-        }
+        },
         {
             "text" : "Blessed are the pure in heart, for they will see God.",
             "ref" : "Matthew 5:8"
@@ -26,7 +26,7 @@
         {
             "text" : "Shout for joy to the Lord, all the earth. Worship the Lord with gladness; come before him with joyful songs.",
             "ref" : "Psalm 100:1–2"
-        }
+        },
         {
             "text" : "Shout aloud and sing for joy, people of Zion, for great is the Holy One of Israel among you.",
             "ref" : "Isaiah 12:6"
@@ -49,6 +49,22 @@
         {
             "text" : "In your anger do not sin: Do not let the sun go down while you are still angry.",
             "ref" : "Ephesians 4:26"
+        },
+        {
+            "text" : "Wrath is cruel, anger is overwhelming, but who can stand before jealousy?",
+            "ref" : "Proverbs 27:4"
+        },
+        {
+            "text" : "Fools give full vent to their rage, but the wise bring calm in the end.",
+            "ref" : "Proverbs 29:11"
+        },
+        {
+            "text" : "Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",
+            "ref" : "James 1:19-20"
+        },
+        {
+            "text" : "Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
+            "ref" : "Ecclesiastes 7:9"
         }
     ],
 
@@ -56,6 +72,22 @@
         {
             "text" : "Be still, and know that I am God.",
             "ref" : "Psalm 46:10"
+        },
+        {
+            "text" : "You will keep in perfect peace those whose minds are steadfast, because they trust in you.",
+            "ref" : "Isaiah 26:3"
+        },
+        {
+            "text" : "He stilled the storm to a whisper; the waves of the sea were hushed.",
+            "ref" : "Psalm 107:29"
+        },
+        {
+            "text" : "Now may the Lord of peace himself give you peace at all times and in every way. The Lord be with all of you.",
+            "ref" : "2 Thessalonians 3:16"
+        },
+        {
+            "text" : "Come to me, all you who are weary and burdened, and I will give you rest... you will find rest for your souls.",
+            "ref" : "Matthew 11:28–29"
         }
     ],
 
@@ -63,20 +95,20 @@
         {
             "text" : "Come to me, all you who are weary and burdened, and I will give you rest.",
             "ref" : "Matthew 11:28"
-        }
+        },
     ],
 
     "sad" :[
         {
             "text" : "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
             "ref" : "Psalm 34:18"
-        }
+        },
     ],
 
     "anxious" : [
         {
             "text" : "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
             "ref" : "Philippians 4:6–7"
-        }
+        },
     ]
 }

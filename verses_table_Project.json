@@ -96,6 +96,22 @@
             "text" : "Come to me, all you who are weary and burdened, and I will give you rest.",
             "ref" : "Matthew 11:28"
         },
+        {
+            "text" : "But whoever listens to me will live in safety and be at ease, without fear of harm.",
+            "ref" : "Proverbs 1:33"
+        },
+        {
+            "text" : "In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety.",
+            "ref" : "Psalm 4:8"
+        },
+        {
+            "text" : "In vain you rise early and stay up late, toiling for food to eat—for he grants sleep to those he loves.",
+            "ref" : "Psalm 127:2"
+        },
+        {
+            "text" : "Stand at the crossroads and look... ask where the good way is, and walk in it, and you will find rest for your souls.",
+            "ref" : "Jeremiah 6:16"
+        }
     ],
 
     "sad" :[
@@ -103,6 +119,22 @@
             "text" : "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
             "ref" : "Psalm 34:18"
         },
+        {
+            "text" : "You will grieve, but your grief will turn to joy.",
+            "ref" : "John 16:20"
+        },
+        {
+            "text" : "‘He will wipe every tear from their eyes. There will be no more death’ or mourning or crying or pain.",
+            "ref" : "Revelation 21:4"
+        },
+        {
+            "text" : "Because of the Lord’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.",
+            "ref" : "Lamentations 3:22–23"
+        },
+        {
+            "text" : "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you.",
+            "ref" : "Isaiah 41:10"
+        }
     ],
 
     "anxious" : [
@@ -110,5 +142,44 @@
             "text" : "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
             "ref" : "Philippians 4:6–7"
         },
+        {
+            "text" : "When anxiety was great within me, your consolation brought me joy.",
+            "ref" : "Psalm 94:19"
+        },
+        {
+            "text" : "Cast all your anxiety on him because he cares for you.",
+            "ref" : "1 Peter 5:7"
+        },
+        {
+            "text" : "Cast your cares on the Lord and he will sustain you; he will never let the righteous be shaken.",
+            "ref" : "Psalm 55:22"
+        },
+        {
+            "text" : "Peace I leave with you; my peace I give you... Do not let your hearts be troubled and do not be afraid.",
+            "ref" : "John 14:27"
+        }
+    ],
+
+    "fear" : [
+        {
+            "text" : "Commit your way to the Lord; trust in him, and he will act.",
+            "ref" : "Psalm 37:5"
+        },
+        {
+            "text" : "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+            "ref" : "Isaiah 41:10"
+        },
+        {
+            "text" : "Be strong and courageous. Do not be afraid or terrified... for the Lord your God goes with you; he will never leave you nor forsake you.",
+            "ref" : "Deuteronomy 31:6"
+        },
+        {
+            "text" : "God is our refuge and strength, an ever-present help in trouble. Therefore we will not fear.",
+            "ref" : "Psalm 46:1–2"
+        },
+        {
+            "text" : "When I am afraid, I put my trust in you. In God, whose word I praise—in God I trust and am not afraid. What can mere mortals do to me?",
+            "ref" : "Psalm 56:3–4"
+        }
     ]
 }

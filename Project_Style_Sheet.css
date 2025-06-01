@@ -8,3 +8,10 @@ body
 {
     background-color:lightskyblue;
 }
+
+output1
+{
+    white-space: pre-line;
+    margin-top: 20px;
+    font-style: italic;
+}

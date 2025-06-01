@@ -4,7 +4,7 @@
         <title>Emotional Bible Verses</title>
         <link rel ='stylesheet' href='Project_Style_Sheet.css'>
         <script>
-            function getVerse() {
+            async function getVerse() {
                 const emotionSelect = document.getElementById('emotion');
                 const selectedEmotion = emotionSelect.value;
 
@@ -13,48 +13,27 @@
                     return;
                 }
 
-                else if (selectedEmotion == "happy") {
-                    alert("You are happy");
-                    var random = Math.floor(Math.random()*10);  //0 - 9
-                    alert(random);
-                    return;
-                }
+                try {
+                    const response = await fetch('verses.json'); // Ensure this path is correct
+                    const data = await response.json();
 
-                else if (selectedEmotion == "excited") {
-                    alert("You are excited");
-                    return;
-                }
+                    const verses = data[selectedEmotion];
 
-                else if (selectedEmotion == "calm") {
-                    alert("You are calm");
-                    return;
-                }
+                    if (!verses || verses.length === 0) {
+                        document.getElementById("verseDisplay").innerText = "No verses found for this emotion.";
+                        return;
+                    }
 
-                else if (selectedEmotion == "relaxed") {
-                    alert("You are relaxed");
-                    return;
-                }
+                    const randomIndex = Math.floor(Math.random() * verses.length);
+                    const selectedVerse = verses[randomIndex];
 
-                else if (selectedEmotion == "sad") {
-                    alert("You are sad");
-                    return;
+                // Display the verse and reference
+                    document.getElementById("verseDisplay").innerText =
+                        `"${selectedVerse.text}"\n— ${selectedVerse.ref}`;
+                } catch (error) {
+                    console.error("Error loading verses:", error);
+                    document.getElementById("verseDisplay").innerText = "Could not load verses. Please try again.";
                 }
-
-                else if (selectedEmotion == "angry") {
-                    alert("You are angry");
-                    return;
-                }
-
-                else if (selectedEmotion == "anxious") {
-                    alert("You are anxious");
-                    return;
-                }
-
-                else if (selectedEmotion == "fear") {
-                    alert("You are afraid");
-                    return;
-                }
-
             }
 
         </script>

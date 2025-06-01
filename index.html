@@ -14,7 +14,7 @@
                 }
 
                 try {
-                    const response = await fetch('verses.json'); // Ensure this path is correct
+                    const response = await fetch('verses_table_Project.json'); // Ensure this path is correct
                     const data = await response.json();
 
                     const verses = data[selectedEmotion];
@@ -58,6 +58,7 @@
             </select><br><br>
 
             <button onclick='getVerse();'>Generate Verse</button>
+            <p id="verseDisplay" style="white-space: pre-line; margin-top: 20px; font-style: italic;"></p>
           </div>
     </body>
 </html>

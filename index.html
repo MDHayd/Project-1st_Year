@@ -8,10 +8,6 @@
                 const emotionSelect = document.getElementById('emotion');
                 const selectedEmotion = emotionSelect.value;
 
-                if (!selectedEmotion) {
-                    alert("Please select an emotion first");
-                }
-
                 try {
                     const response = await fetch('verses_table_Project.json');
                     const data = await response.json();

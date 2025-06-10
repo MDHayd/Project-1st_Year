@@ -64,3 +64,9 @@ tr:hover {
   background-color: #357ABD;
 }
 
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

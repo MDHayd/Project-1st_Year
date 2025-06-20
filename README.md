@@ -1,2 +1,4 @@
 # VerseWise (unfinished)
 My project will generate a random verse/psalm with it's reference from the bible in accordance to the users entered emotion.
+
+I also have 3 other webpages linked to the home webpage. These other pages include a description page, contact page and a source page.

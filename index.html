@@ -26,21 +26,11 @@
                     const verseCard = document.getElementById("verseCard");
                     document.getElementById("verseDisplay").innerText =
                         `"${selectedVerse.text}"\n— ${selectedVerse.ref}`;
-
-                    // Animate verse reveal
-                    const verseCard = document.getElementById("verseCard");
-
-                    // Remove the class to reset animation
+                    
+                // Animate verse reveal
                     verseCard.classList.remove("show");
-
-                    // Force reflow (this makes sure the browser registers the removal)
-                    void verseCard.offsetWidth;
-
-                    // Add the class back, but do it on the next tick to guarantee the animation restarts
-                    setTimeout(() => {
-                      verseCard.classList.add("show");
-                    }, 10);
-
+                    void verseCard.offsetWidth; // trigger reflow to restart animation
+                    verseCard.classList.add("show");
                     
                 } catch (error) {
                     console.error("Error loading verses:", error);

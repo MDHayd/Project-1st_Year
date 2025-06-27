@@ -22,9 +22,16 @@
                     const randomIndex = Math.floor(Math.random() * verses.length);
                     const selectedVerse = verses[randomIndex];
 
-                // Display the verse and reference
+                // Display verse
+                    const verseCard = document.getElementById("verseCard");
                     document.getElementById("verseDisplay").innerText =
                         `"${selectedVerse.text}"\n— ${selectedVerse.ref}`;
+
+                    // Animate verse reveal
+                    verseCard.classList.remove("show");
+                    void verseCard.offsetWidth; // trigger reflow to restart animation
+                    verseCard.classList.add("show");
+                    
                 } catch (error) {
                     console.error("Error loading verses:", error);
                     document.getElementById("verseDisplay").innerText = "Could not load verses. Please try again.";

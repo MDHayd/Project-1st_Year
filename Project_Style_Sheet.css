@@ -105,7 +105,7 @@ tr:hover {
   border-left: 5px solid #6a9c89;
   font-style: italic;
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 

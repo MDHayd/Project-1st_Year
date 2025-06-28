@@ -27,9 +27,6 @@ table, th, td {
 th, td { 
   border-color: black;
 }
-tr:hover {
-    background-color: red;
-}
 
 .center {
   margin-left: auto;

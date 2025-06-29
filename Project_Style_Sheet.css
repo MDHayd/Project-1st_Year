@@ -40,11 +40,12 @@ th, td {
 }
 
 .nav-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin: 20px 0;
+  display: inline-block; /* Ensures padding applies properly */
+  font-size: 18px;
+  padding: 12px 20px;
+  text-decoration: none; /* Removes underlines if desired */
+  min-width: 100px;
+  text-align: center;
 }
 
 .nav-block {

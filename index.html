@@ -10,7 +10,7 @@
 
                 try {                                            //If something goes wrong, the code reads the catch block, only runs if there is an error
                     const response = await fetch('verses_table_Project.json');  
-                    const data = await response.json();     //Wait until the JSON file is fully read
+                    const data = await response.json();     //Wait until the JSON file is fully read as a Javascript object
 
                     const verses = data[selectedEmotion];
 

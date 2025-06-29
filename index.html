@@ -9,8 +9,8 @@
                 const selectedEmotion = emotionSelect.value;
 
                 try {                                            //If something goes wrong, the code reads the catch block, only runs if there is an error
-                    const response = await fetch('verses_table_Project.json');
-                    const data = await response.json();
+                    const response = await fetch('verses_table_Project.json');  
+                    const data = await response.json();     //Wait until the JSON file is fully read
 
                     const verses = data[selectedEmotion];
 
@@ -25,7 +25,7 @@
                 // Display verse
                     const verseCard = document.getElementById("verseCard");
                     document.getElementById("verseDisplay").innerText =
-                        `"${selectedVerse.text}"\n— ${selectedVerse.ref}`;
+                        `"${selectedVerse.text}"\n— ${selectedVerse.ref}`;    //Insert string into variable
                     
                 // Animate verse reveal
                     verseCard.classList.remove("show");

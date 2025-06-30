@@ -26,6 +26,15 @@ output1
     margin-top: 20px;
     font-style: italic;
 }
+
+h1, h2 {
+    color: #d4af37;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;

@@ -281,6 +281,27 @@
             "text" : "Peace I leave with you; my peace I give you... Do not let your hearts be troubled and do not be afraid.",
             "ref" : "John 14:27"
         }
+        
+        {
+            "text": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.",
+            "ref": "Matthew 6:34"
+        },
+        {
+            "text": "For I am the Lord your God who takes hold of your right hand and says to you, Do not fear; I will help you.",
+            "ref": "Isaiah 41:13"
+        },
+        {
+            "text": "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
+            "ref": "Psalm 23:4"
+        },
+        {
+            "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+            "ref": "Proverbs 3:5-6"
+        },
+        {
+            "text": "For I am convinced that neither death nor life... will be able to separate us from the love of God that is in Christ Jesus our Lord.",
+            "ref": "Romans 8:38-39"
+        }
     ],
 
     "fear" : [

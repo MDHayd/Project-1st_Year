@@ -136,10 +136,12 @@ th, td {
 
 .img {
   max-width: 5%;
+  max-height: 400px;
   height: auto;
   display: block; /* removes small gaps below images */
   margin: 0 auto; /* centers image */
 }
+
 
 
 

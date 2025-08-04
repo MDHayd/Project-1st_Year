@@ -135,10 +135,11 @@ th, td {
 }
 
 .img {
-  max-width: 20%;
+  max-width: 5%;
   height: auto;
   display: block; /* removes small gaps below images */
-  margin: 0 auto; /* centers image if you want */
+  margin: 0 auto; /* centers image */
 }
+
 
 

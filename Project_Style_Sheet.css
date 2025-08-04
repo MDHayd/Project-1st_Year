@@ -136,12 +136,13 @@ th, td {
 
 .img {
   max-width: 100%;
-  max-height: 300px; /* limits height */
+  max-height: 250px; /* limits height */
   height: auto;
   width: auto; /* width adjust */
   display: block;
   margin: 0 auto;
 }
+
 
 
 

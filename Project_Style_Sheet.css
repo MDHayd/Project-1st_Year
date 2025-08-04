@@ -135,8 +135,9 @@ th, td {
 }
 
 .img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   display: block; /* removes small gaps below images */
   margin: 0 auto; /* centers image if you want */
 }
+

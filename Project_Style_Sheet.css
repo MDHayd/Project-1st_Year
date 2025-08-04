@@ -91,7 +91,7 @@ th, td {
 
 .button {
   background-color: #d4af37;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 0.5rem;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -100,6 +100,12 @@ th, td {
   display: inline-block;
   font-size: 16px;
   width: 80%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
 }
 
 .card {
@@ -142,6 +148,7 @@ th, td {
   display: block;
   margin: 0 auto;
 }
+
 
 
 

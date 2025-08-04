@@ -106,7 +106,7 @@
         {
             "text" : "Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
             "ref" : "Ecclesiastes 7:9"
-        }
+        },
         {
             "text": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
             "ref": "Proverbs 15:1"
@@ -149,8 +149,7 @@
         {
             "text" : "Come to me, all you who are weary and burdened, and I will give you rest... you will find rest for your souls.",
             "ref" : "Matthew 11:28–29"
-        }
-        
+        },
         {
             "text": "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
             "ref": "John 14:27"
@@ -193,8 +192,7 @@
         {
             "text" : "Stand at the crossroads and look... ask where the good way is, and walk in it, and you will find rest for your souls.",
             "ref" : "Jeremiah 6:16"
-        }
-        
+        },
         {
             "text": "The Lord replied, 'My Presence will go with you, and I will give you rest.'",
             "ref": "Exodus 33:14"
@@ -237,7 +235,7 @@
         {
             "text" : "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you.",
             "ref" : "Isaiah 41:10"
-        }
+        },
         {
             "text": "He heals the brokenhearted and binds up their wounds.",
             "ref": "Psalm 147:3"
@@ -280,8 +278,7 @@
         {
             "text" : "Peace I leave with you; my peace I give you... Do not let your hearts be troubled and do not be afraid.",
             "ref" : "John 14:27"
-        }
-        
+        },
         {
             "text": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.",
             "ref": "Matthew 6:34"
@@ -324,7 +321,7 @@
         {
             "text" : "When I am afraid, I put my trust in you. In God, whose word I praise—in God I trust and am not afraid. What can mere mortals do to me?",
             "ref" : "Psalm 56:3–4"
-        }
+        },
         {
             "text": "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
             "ref": "Psalm 23:4"
@@ -347,3 +344,4 @@
         }
     ]
 }
+
